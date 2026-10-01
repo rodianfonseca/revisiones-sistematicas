@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica"
+  site-url: "https://rodianfonseca.github.io/revisiones-sistematicas"
+  
+format:
+  html:
+    theme: default

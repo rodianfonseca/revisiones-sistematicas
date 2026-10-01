@@ -1,10 +1,18 @@
 ---
 title: "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica"
 subtitle: "Fundamentos Metodológicos, Herramientas Digitales e Implicaciones Éticas de la IA"
-author: "Síntesis de Evidencia Científica"
+author: "Rodian Fonseca Campuzano"
 format:
   revealjs:
     theme: simple
+    logo: 
+      path: logo.png
+    title-slide-attributes:
+      data-background-image: title.png
+      data-background-size: contain
+      data-background-opacity: "0.7"
+      data-footer: "none"
+      center-title-slide: false
     transition: slide
     slide-number: true
     controls: true
@@ -14,67 +22,67 @@ format:
     code-copy: true
     code-fold: false
     highlight-style: github
-    chalkboard: true
-    width: 1280
-    height: 720
+    chalkboard: false
+    width: 1366
+    height: 900
 ---
 
 ## Contenido
 
-1. **Fundamentos y Tipología de la Síntesis de Evidencia**
+1.  **Fundamentos y Tipología de la Síntesis de Evidencia**
 
-2. **Marcos Conceptuales y Estándares de Reporte**
+2.  **Marcos Conceptuales y Estándares de Reporte**
 
-3. **Fases en el Desarrollo Metodológico**
+3.  **Fases en el Desarrollo Metodológico**
 
-4. **Síntesis Cuantitativa y Modelado Multinivel**
+4.  **Síntesis Cuantitativa y Modelado Multinivel**
 
-5. **Ecosistema de Herramientas Digitales**
+5.  **Ecosistema de Herramientas Digitales**
 
-6. **Inteligencia Artificial: Automatización y Estándares**
+6.  **Inteligencia Artificial: Automatización y Estándares**
 
-7. **Desafíos Éticos y Conclusiones**
+7.  **Desafíos Éticos y Conclusiones**
 
 # 1. Fundamentos y Tipología de la Síntesis de Evidencia {background-color="#1e293b"}
 
 ## La Necesidad de Síntesis en Biología
 
-* **Acumulación exponencial de literatura:** Imposibilidad de abarcar todo el conocimiento con revisiones narrativas tradicionales.
+- **Acumulación exponencial de literatura:** Imposibilidad de abarcar todo el conocimiento con revisiones narrativas tradicionales.
 
-* **Riesgos de las Revisiones Narrativas:**
+- **Riesgos de las Revisiones Narrativas:**
 
-  * Sesgo de selección explícito o implícito.
+  - Sesgo de selección explícito o implícito.
 
-  * Subjetividad e imposibilidad de réplica.
+  - Subjetividad e imposibilidad de réplica.
 
-* **Estándar de Oro:** La **Revisión Sistemática** garantiza transparencia, reproducibilidad y rigor metodológico.
+- La **Revisión Sistemática** garantiza transparencia, reproducibilidad y rigor metodológico.
 
-## Taxonomía de la Síntesis de Evidencia
+## Taxonomía de la Síntesis de Evidencia {.smaller}
 
-| **Tipo**                 | **Objetivo Principal**                               | **Evaluación de Sesgo**    | **Tipo de Síntesis**                |   |
-|--------------------------|------------------------------------------------------|----------------------------|-------------------------------------|---|
-| **Revisión Sistemática** | Responder preguntas específicas de eficacia/impacto  | Obligatoria e intensiva    | Cualitativa o Cuantitativa          |   |
-| **Metaanálisis**         | Combinar estimadores numéricos para un efecto global | Obligatoria (ponderación)  | Estadística (Efectos Mixtos)        |   |
-| **Scoping Review**       | Mapear conceptos clave y vacíos de conocimiento      | Opcional / No requerida    | Descriptiva y Temática              |   |
-| **Systematic Map**       | Catalogar bases de datos de evidencia primaria       | Opcional (Metadatos)       | Mapas teóricos e interactivos       |   |
-| **Rapid Review**         | Síntesis acelerada para decisiones urgentes          | Simplificada / Restringida | Narrativa o Metaanálisis preliminar |   |
-| **Living Review**        | Actualización continua ante rápida evolución         | Continua y dinámica        | Repositorios dinámicos              |   |
+| **Tipo** | **Objetivo Principal** | **Evaluación de Sesgo** | **Tipo de Síntesis** |   |
+|-------------|---------------------|-------------|-------------|-------------|
+| **Revisión Sistemática** | Responder preguntas específicas de eficacia/impacto | Obligatoria e intensiva | Cualitativa o Cuantitativa |  |
+| **Metaanálisis** | Combinar estimadores numéricos para un efecto global | Obligatoria (ponderación) | Estadística (Efectos Mixtos) |  |
+| **Scoping Review** | Mapear conceptos clave y vacíos de conocimiento | Opcional / No requerida | Descriptiva y Temática |  |
+| **Systematic Map** | Catalogar bases de datos de evidencia primaria | Opcional (Metadatos) | Mapas teóricos e interactivos |  |
+| **Rapid Review** | Síntesis acelerada para decisiones urgentes | Simplificada / Restringida | Narrativa o Metaanálisis preliminar |  |
+| **Living Review** | Actualización continua ante rápida evolución | Continua y dinámica | Repositorios dinámicos |  |
 
 ## Particularidades en Biología vs. Biomedicina
 
-* **Biomedicina humana:**
+- **Biomedicina humana:**
 
-  * Predominio de Ensayos Controlados Aleatorizados (ECA).
+  - Predominio de Ensayos Controlados Aleatorizados (ECA).
 
-  * Enfoque monoespecífico (*Homo sapiens*).
+  - Enfoque monoespecífico (*Homo sapiens*).
 
-* **Biología y Ecología:**
+- **Biología y Ecología:**
 
-  * Heterogeneidad multinivel (taxones, ecotipos, niveles tróficos).
+  - Heterogeneidad multinivel (taxones, ecotipos, niveles tróficos).
 
-  * Diseños predominantemente observacionales o de campo.
+  - Diseños predominantemente observacionales o de campo.
 
-  * **Objetivo:** Quantificar patrones globales, explorar la heterogeneidad ($I^2$) y evaluar moderadores ecológicos.
+  - **Objetivo:** Quantificar patrones globales, explorar la heterogeneidad ($I^2$) y evaluar moderadores ecológicos.
 
 # 2. Marcos Conceptuales y Estándares {background-color="#1e293b"}
 
@@ -82,139 +90,133 @@ format:
 
 La mayoría de estudios biológicos evalúan *exposiciones a factores estresantes* en lugar de intervenciones médicas directas.
 
-* **PICO** (Clínico): *Population, Intervention, Comparison, Outcome*
+- **PICO** (Clínico): *Population, Intervention, Comparison, Outcome*
 
-* **PECO** (Ecológico/Ambiental): *Population, Exposure, Comparison, Outcome*
+- **PECO** (Ecológico/Ambiental): *Population, Exposure, Comparison, Outcome*
 
 ### Ejemplo Aplicado (PECO):
 
-* **P:** Comunidades de ectotermos terrestres en el Neotrópico.
+- **P:** Comunidades de ectotermos terrestres en el Neotrópico.
 
-* **E:** Incremento de $+2^\circ\text{C}$ en la temperatura media marina.
+- **E:** Incremento de $+2^\circ\text{C}$ en la temperatura media marina.
 
-* **C:** Registros térmicos basales / sitios de control no alterados.
+- **C:** Registros térmicos basales / sitios de control no alterados.
 
-* **O:** Tasa de fecundidad y cambio en la diversidad funcional.
+- **O:** Tasa de fecundidad y cambio en la diversidad funcional.
 
 ## Otros Marcos de Pregunta
 
-* **PEO** (*Population, Exposure, Outcome*):
+- **PEO** (*Population, Exposure, Outcome*):
 
-  * Prescinde del comparador explícito cuando no hay sitio de control en hábitats naturales.
+  - Prescinde del comparador explícito cuando no hay sitio de control en hábitats naturales.
 
-* **SPIDER** (*Sample, Phenomenon of Interest, Design, Evaluation, Research type*):
+- **SPIDER** (*Sample, Phenomenon of Interest, Design, Evaluation, Research type*):
 
-  * Orientado a estudios cualitativos, conductuales o etológicos.
+  - Orientado a estudios cualitativos, conductuales o etológicos.
 
-* **PCC** (*Population, Concept, Context*):
+- **PCC** (*Population, Concept, Context*):
 
-  * Utilizado en Revisiones de Alcance (*Scoping Reviews*) según el JBI.
+  - Utilizado en Revisiones de Alcance (*Scoping Reviews*).
 
 ## Estándares de Reporte: ROSES y PRISMA-EcoEvo
 
 La declaración PRISMA tradicional presenta limitaciones al abordar la no independencia de datos ecológicos.
 
-:::: {.columns} 
-
+::::: columns
 ::: {.column width="50%"}
-
 ### **ROSES**
 
 *RepOrting standards for Systematic Evidence Syntheses*
 
-* Desarrollado por la CEE.
+- Desarrollado por la CEE.
 
-* Formularios específicos para revisiones y mapas sistemáticos ambientales.
+- Formularios específicos para revisiones y mapas sistemáticos ambientales.
 
-* Auditoría rigurosa de estrategias de búsqueda. 
-
+- Auditoría rigurosa de estrategias de búsqueda.
 :::
 
 ::: {.column width="50%"}
-
 ### **PRISMA-EcoEvo**
 
 *Extensión oficial para Ecología y Evolución*
 
-* Lista de verificación de 27 ítems.
+- Lista de verificación de 27 ítems.
 
-* Registro explícito de no independencia (filogenia, medidas repetidas).
+- Registro explícito de no independencia (filogenia, medidas repetidas).
 
-* Exige compartir códigos e insumos estadísticos abiertos. 
-
-::: 
-
+- Exige compartir códigos e insumos estadísticos abiertos.
 :::
+:::::
 
-# 3. Fases Metodológicas del Desarrollo {background-color="#1e293b"}
+# 3. Fases Metodológicas de la Revisión Sistemática {background-color="#1e293b"}
 
 ## Flujo Metodológico
 
 ```{mermaid}
+%%| mermaid-format: png
+%%| fig-width: 13
+%%| fig-align: center
+
 flowchart LR
-    %% Bloque de la Fila 1 (Izquierda a Derecha)
-    subgraph Fila1 [" "]
-        direction LR
-        A["1. Pregunta y Protocolo (OSF/PROSPERO)"] --> B["2. Búsqueda Bibliográfica + Literatura Gris"]
-    end
+  subgraph SGA [" "]
+  direction TB
+    A["1. Pregunta y Protocolo
+    (OSF/PROSPERO)"] --> B["2. Búsqueda Bibliográfica + 
+    Literatura Gris"]
+  end
+  subgraph SGB [" "]
+  direction TB
+    C["3. Criba a Ciego Doble 
+    (Título/Resumen → Texto Completo)"] --> D["4. Evaluación Crítica de Sesgo 
+    (CEESAT)"]
+  end
+  subgraph SGC [" "]
+  direction TB
+    E["5. Extracción Sistemática de Metadatos 
+    y Tamaños del Efecto"] --> F["6. Síntesis Estadística y 
+    Metaanálisis Multinivel"]
+  end
+  SGA --> SGB
+  SGB --> SGC
 
-    %% Bloque de la Fila 2 (Izquierda a Derecha)
-    subgraph Fila2 [" "]
-        direction LR
-        C["3. Criba a Ciego Doble (Título/Resumen → Texto Completo)"] --> D["4. Evaluación Crítica de Sesgo (CEESAT / FEAT)"]
-    end
-
-    %% Bloque de la Fila 3 (Izquierda a Derecha)
-    subgraph Fila3 [" "]
-        direction LR
-        E["5. Extracción Sistemática de Metadatos y Tamaños del Efecto"] --> F["6. Síntesis Estadística y Metaanálisis Multinivel"]
-    end
-
-    %% Conexiones verticales entre filas externas
-    B --> C
-    D --> E
-
-    %% Enlaces invisibles estructurales para obligar a las filas a apilarse verticalmente
-    A ~~~ C
-    C ~~~ E
-
-    %% Estilos para limpiar el diseño y ocultar contenedores
-    style Fila1 fill:none,stroke:none
-    style Fila2 fill:none,stroke:none
-    style Fila3 fill:none,stroke:none
-
-
-    style A fill:#2563eb,stroke:#1d4ed8,color:#fff
-    style B fill:#0284c7,stroke:#0369a1,color:#fff
-    style C fill:#0d9488,stroke:#0f766e,color:#fff
-    style D fill:#16a34a,stroke:#15803d,color:#fff
-    style E fill:#ca8a04,stroke:#a16207,color:#fff
-    style F fill:#dc2626,stroke:#b91c1c,color:#fff
+  %% Estilos para limpiar el diseño y ocultar contenedores
+    style SGA fill:none,stroke:#00008B
+    style SGB fill:none,stroke:#00008B
+    style SGC fill:none,stroke:#00008B
 ```
+
+::: aside
+[OSF (Open Science Framework)](https://osf.io/){.external target="_blank"}
+
+[PROSPERO](https://www.crd.york.ac.uk/prospero/){.external target="_blank"}
+
+[CEESAT (Collaboration for Environmental Evidence Synthesis Appraisal Tool)](https://environmentalevidence.org/ceesat/){.external target="_blank"}
+
+:::
 
 ## Estrategia de Búsqueda y Selección
 
-* **Ecuaciones de Búsqueda:**
+- **Ecuaciones de Búsqueda:**
 
-  * Uso de operadores booleanos (`AND`, `OR`, `NOT`), comodines (`*`), y proximidad.
+  - Uso de operadores booleanos (`AND`, `OR`, `NOT`), comodines (`*`), y proximidad.
 
-  * Bases de datos: Web of Science, Scopus, PubMed, Google Scholar.
+  - Bases de datos: Web of Science, Scopus, PubMed, Google Scholar.
 
-* **Literatura Gris:**
+- **Literatura Gris:**
 
-  * Informes gubernamentales, tesis doctorales, repositorios de preprints.
+  - Informes gubernamentales, tesis doctorales, repositorios de preprints.
 
-  * Indispensable para contrarrestar el **sesgo de publicación**.
+  - Indispensable para contrarrestar el **sesgo de publicación**.
 
-* **Criba e Inter-evaluador:**
+- **Criba e Inter-evaluador:**
 
-  * Criba por al menos 2 evaluadores independientes en ciego.
+  - Criba por al menos 2 evaluadores independientes en ciego.
 
-  * Medición del acuerdo mediante el coeficiente **Kappa de Cohen (**$\kappa$**)**.
+  - Medición del acuerdo mediante el coeficiente **Kappa de Cohen (**$\kappa$**)**.
 
 # 4. Síntesis Cuantitativa y Metaanálisis {background-color="#1e293b"}
 
-## Métricas de Tamaño del Efecto
+## Métricas de Tamaño del Efecto {.smaller}
 
 ### 1. Razón de Respuesta Logarítmica ($\ln RR$)
 
@@ -222,7 +224,7 @@ $$
 \ln RR = \ln\left(\frac{\bar{X}_E}{\bar{X}_C}\right), \quad v_{\ln RR} = \frac{S_E^2}{n_E \bar{X}_E^2} + \frac{S_C^2}{n_C \bar{X}_C^2}
 $$
 
-* Expresa el cambio proporcional respecto al control.
+- Expresa el cambio proporcional respecto al control.
 
 ### 2. Diferencia de Medias Estandarizada ($g$ de Hedges)
 
@@ -230,21 +232,21 @@ $$
 g = J \times \left( \frac{\bar{X}_E - \bar{X}_C}{S_{pooled}} \right), \quad J = 1 - \frac{3}{4(n_E + n_C - 2) - 1}
 $$
 
-* Corrige la sobreestimación en muestras pequeñas mediante el factor $J$.
+- Corrige la sobreestimación en muestras pequeñas mediante el factor $J$.
 
 ### 3. Razón Logarítmica de Varianzas ($\ln VR$)
 
-* Mide el impacto en la plasticidad fenotípica o variabilidad intra-tratamiento.
+- Mide el impacto en la plasticidad fenotípica o variabilidad intra-tratamiento.
 
 ## Modelos Multinivel y Dependencia Estadística
 
 Los datos biológicos violan el supuesto de independencia:
 
-1. Múltiples efectos dentro de un mismo artículo (efecto de estudio).
+1.  Múltiples efectos dentro de un mismo artículo (efecto de estudio).
 
-2. Estructura de filogenia compartida entre especies (matriz de covarianza filogenética).
+2.  Estructura de filogenia compartida entre especies (matriz de covarianza filogenética).
 
-```
+```{.r}         
 # Ejemplo de ajuste multinivel en R con metafor
 library(metafor)
 
@@ -255,58 +257,56 @@ model_ml <- rma.mv(
   R = list(species_phylo = phylo_cor_matrix),
   data = dataset_bio
 )
-
 ```
 
-## Visualización Moderna: `orchaRd` 2.0
+## Visualización Moderna: `orchaRd` 2.0 {.smaller}
 
 Sustituye los gráficos de bosque (*forest plots*) por **gráficos de orquídea (*orchard plots*)**:
 
-::: {.incremental}
+::::: columns
+::: {.column width="40%"}
+- **Intervalo de Confianza (95% IC):** Precisión del estimador global.
 
-* **Intervalo de Confianza (95% IC):** Precisión del estimador global.
+- **Intervalo de Predicción (95% IP):** Rango esperado para futuros estudios primarios (heterogeneidad biológica real).
 
-* **Intervalo de Predicción (95% IP):** Rango esperado para futuros estudios primarios (heterogeneidad biológica real).
+- **Beeswarm (Diagrama de abejas):** Despliega cada tamaño de efecto $y_i$ con tamaño proporcional a su precisión ($1/SE$).
 
-* **Beeswarm (Diagrama de abejas):** Despliega cada tamaño de efecto $y_i$ con tamaño proporcional a su precisión ($1/SE$).
-
-* **Métricas:** Calcula la heterogeneidad multinivel $I^2_{ml}$ y $R^2_{ml}$. 
-
+- **Métricas:** Calcula la heterogeneidad multinivel $I^2_{ml}$ y $R^2_{ml}$.
 :::
+
+::: {.column width="60%"}
+![](https://figures.semanticscholar.org/2d09fe92a6753684948f9b025707fcfe50c3fa62/9-Figure4-1.png){height="700px"}
+:::
+:::::
 
 # 5. Herramientas Digitales e IA {background-color="#1e293b"}
 
 ## Ecosistema de Software Especializado
 
-| **Plataforma**            | **Tipo de Acceso**   | **Enfoque Principal**                                         |
-|---------------------------|----------------------|---------------------------------------------------------------|
-| **CADIMA**                | Gratuito (CEE/JKI)   | Flujo completo en ecología, agronomía y ciencias ambientales  |
-| **Covidence**             | Comercial (Cochrane) | Criba y extracción colaborativa con ciego automático          |
-| **Rayyan**                | Freemium             | Criba rápida de títulos/resúmenes en entorno móvil y web      |
-| **ASReview**              | Código Abierto       | Criba asistida por Machine Learning (Aprendizaje Activo)      |
-| **`metafor` & `orchaRd`** | R / Gratuito         | Modelado estadístico multinivel, filogenético y visualización |
+| **Plataforma** | **Tipo de Acceso** | **Enfoque Principal** |
+|-----------------|-----------------|--------------------------------------|
+| [**CADIMA**](https://www.cadima.info/){.external target="_blank"} | Gratuito (CEE/JKI) | Flujo completo en ecología, agronomía y ciencias ambientales |
+| [**Covidence**](https://www.covidence.org/){.external target="_blank"} | Comercial (Cochrane) | Criba y extracción colaborativa con ciego automático |
+| [**Rayyan**](https://www.rayyan.ai/){.external target="_blank"} | Freemium | Criba rápida de títulos/resúmenes en entorno móvil y web |
+| [**ASReview**](https://asreview.nl/){.external target="_blank"} | Código Abierto | Criba asistida por Machine Learning (Aprendizaje Activo) |
+| [**`metafor`**](https://www.metafor-project.org/doku.php/metafor){.external target="_blank"} **& [`orchaRd`](https://daniel1noble.github.io/orchaRd/){.external target="_blank"}** | R / Gratuito | Modelado estadístico multinivel, filogenético y visualización |
 
 ## Inteligencia Artificial en el Flujo de Trabajo
 
-* **Formulación y Búsqueda:** Traducción de PECO a sintaxis complejas.
+- **Formulación y Búsqueda:** Traducción de PECO a sintaxis complejas.
 
-* **Criba Inteligente:** Reordenamiento por relevancia en tiempo real mediante aprendizaje activo.
+- **Criba Inteligente:** Reordenamiento por relevancia en tiempo real mediante aprendizaje activo.
 
-* **Extracción Automática:** Lectura de tablas en PDF y extracción de datos cuantitativos ($n, \bar{X}, SD$).
+- **Extracción Automática:** Lectura de tablas en PDF y extracción de datos cuantitativos ($n, \bar{X}, SD$).
 
-::: {.callout-note}
-
-### Eficiencia
-
-El soporte con herramientas basadas en IA permite reducir la carga de trabajo manual entre un **50% y un 75%**.
-:::
-
-## Marcos de Reporte para IA: PRISMA-trAIce
-
-Garantiza la trazabilidad del trabajo híbrido entre humanos y algoritmos.
+- **Marcos de Reporte para IA:** PRISMA-trAIce garantiza la trazabilidad del trabajo híbrido entre humanos y algoritmos.
 
 ```{mermaid}
-flowchart TD
+%%| mermaid-format: png
+%%| fig-width: 15
+%%| fig-align: center
+
+flowchart LR
     A["Búsqueda e Identificación de Registros"] --> B["Calibración: Muestra Aleatoria (100-200 citas)<br/>Evaluada por IA vs. 2 Humanos Independientes"]
     B --> C{"¿Acuerdo Kappa ≥ 0.70?"}
     C -- No --> D["Re-entrenamiento del Modelo / Ajuste de Prompts"]
@@ -326,32 +326,35 @@ flowchart TD
     style I fill:#f97316,color:#fff
 ```
 
+::: aside
+El soporte con herramientas basadas en IA permite reducir la carga de trabajo manual entre un **50% y un 75%**.
+:::
+
 # 6. Desafíos Éticos e Implicaciones {background-color="#1e293b"}
 
 ## Riesgos y Limitaciones de la IA
 
-* **Sesgo Algorítmico:**
+- **Sesgo Algorítmico:**
 
-  * Los modelos LLM heredan sesgos taxonómicos y geográficos globales.
+  - Los modelos LLM heredan sesgos taxonómicos y geográficos globales.
 
-  * Riesgo de descartar investigación regional o de especies no modelo.
+  - Riesgo de descartar investigación regional o de especies no modelo.
 
-* **"Alucinaciones" y Fabricación de Datos:**
+- **"Alucinaciones" y Fabricación de Datos:**
 
-  * Confusión entre SD y SE, o invención de números/citas.
+  - Confusión entre SD y SE, o invención de números/citas.
 
-  * Un solo dato erróneo altera el cálculo del modelo multinivel.
+  - Un solo dato erróneo altera el cálculo del modelo multinivel.
 
-* **Caja Negra e Irreproducibilidad:**
+- **Caja Negra e Irreproducibilidad:**
 
-  * Cambios no documentados en modelos comerciales cerrados.
+  - Cambios no documentados en modelos comerciales cerrados.
 
-  * Exige publicar *prompts*, parámetros de temperatura y versiones de la API.
+  - Exige publicar *prompts*, parámetros de temperatura y versiones de la API.
 
 ## Principio de Responsabilidad Humana
 
-::: {.callout-important}
-
+::: callout-important
 ### Directriz Consensuada (Cochrane / CEE)
 
 La Inteligencia Artificial es una **herramienta de soporte a la decisión (*decision-support tool*)**.
@@ -359,20 +362,20 @@ La Inteligencia Artificial es una **herramienta de soporte a la decisión (*deci
 Las decisiones metodológicas sustantivas, la evaluación final de sesgos y la interpretación teórica son **responsabilidad inalienable de los investigadores humanos**.
 :::
 
+![](https://papersflow.ai/blog/systematic-literature-review-ai-agents.webp){fig-align="center"}
+
 # 7. Conclusiones {background-color="#1e293b"}
 
 ## Puntos Clave
 
-1. La investigación biológica requiere estándares adaptados (**ROSES**, **PRISMA-EcoEvo**) para abordar la complejidad ecológica y filogenética.
+1.  La investigación biológica requiere estándares adaptados (**ROSES**, **PRISMA-EcoEvo**) para abordar la complejidad ecológica y filogenética.
 
-2. Los modelos metaanalíticos multinivel y las herramientas modernas de visualización (`orchaRd`) son indispensables para manejar datos no independientes.
+2.  Los modelos metaanalíticos multinivel y las herramientas modernas de visualización (`orchaRd`) son indispensables para manejar datos no independientes.
 
-3. La Inteligencia Artificial acelera significativamente los flujos de revisión, pero su integración debe guiarse bajo normativas como **PRISMA-trAIce**.
+3.  La Inteligencia Artificial acelera significativamente los flujos de revisión, pero su integración debe guiarse bajo normativas como **PRISMA-trAIce**.
 
-4. La **supervisión humana experta** sigue siendo la salvaguarda ética y científica fundamental para la síntesis del conocimiento.
+4.  La **supervisión humana experta** sigue siendo la salvaguarda ética y científica fundamental para la síntesis del conocimiento.
 
-## ¿Preguntas o Comentarios?
+# {background-color="#1e293b"}
 
-Gracias por su atención.
-
-*Consulte el documento fuente para el desglose detallado de ecuaciones y referencias bibliográficas.*
+![](logo-central.png){width="200px"}

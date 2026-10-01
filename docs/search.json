@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "revisiones_sistematicas.html#contenido",
+    "href": "revisiones_sistematicas.html#contenido",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Contenido",
+    "text": "Contenido\n\nFundamentos y Tipología de la Síntesis de Evidencia\nMarcos Conceptuales y Estándares de Reporte\nFases en el Desarrollo Metodológico\nSíntesis Cuantitativa y Modelado Multinivel\nEcosistema de Herramientas Digitales\nInteligencia Artificial: Automatización y Estándares\nDesafíos Éticos y Conclusiones"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#la-necesidad-de-síntesis-en-biología",
+    "href": "revisiones_sistematicas.html#la-necesidad-de-síntesis-en-biología",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "La Necesidad de Síntesis en Biología",
+    "text": "La Necesidad de Síntesis en Biología\n\nAcumulación exponencial de literatura: Imposibilidad de abarcar todo el conocimiento con revisiones narrativas tradicionales.\nRiesgos de las Revisiones Narrativas:\n\nSesgo de selección explícito o implícito.\nSubjetividad e imposibilidad de réplica.\n\nLa Revisión Sistemática garantiza transparencia, reproducibilidad y rigor metodológico."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#taxonomía-de-la-síntesis-de-evidencia",
+    "href": "revisiones_sistematicas.html#taxonomía-de-la-síntesis-de-evidencia",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Taxonomía de la Síntesis de Evidencia",
+    "text": "Taxonomía de la Síntesis de Evidencia\n\n\n\n\n\n\n\n\n\n\nTipo\nObjetivo Principal\nEvaluación de Sesgo\nTipo de Síntesis\n\n\n\n\n\nRevisión Sistemática\nResponder preguntas específicas de eficacia/impacto\nObligatoria e intensiva\nCualitativa o Cuantitativa\n\n\n\nMetaanálisis\nCombinar estimadores numéricos para un efecto global\nObligatoria (ponderación)\nEstadística (Efectos Mixtos)\n\n\n\nScoping Review\nMapear conceptos clave y vacíos de conocimiento\nOpcional / No requerida\nDescriptiva y Temática\n\n\n\nSystematic Map\nCatalogar bases de datos de evidencia primaria\nOpcional (Metadatos)\nMapas teóricos e interactivos\n\n\n\nRapid Review\nSíntesis acelerada para decisiones urgentes\nSimplificada / Restringida\nNarrativa o Metaanálisis preliminar\n\n\n\nLiving Review\nActualización continua ante rápida evolución\nContinua y dinámica\nRepositorios dinámicos"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#particularidades-en-biología-vs.-biomedicina",
+    "href": "revisiones_sistematicas.html#particularidades-en-biología-vs.-biomedicina",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Particularidades en Biología vs. Biomedicina",
+    "text": "Particularidades en Biología vs. Biomedicina\n\nBiomedicina humana:\n\nPredominio de Ensayos Controlados Aleatorizados (ECA).\nEnfoque monoespecífico (Homo sapiens).\n\nBiología y Ecología:\n\nHeterogeneidad multinivel (taxones, ecotipos, niveles tróficos).\nDiseños predominantemente observacionales o de campo.\nObjetivo: Quantificar patrones globales, explorar la heterogeneidad (\\(I^2\\)) y evaluar moderadores ecológicos."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#formulación-de-preguntas-pico-vs.-peco",
+    "href": "revisiones_sistematicas.html#formulación-de-preguntas-pico-vs.-peco",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Formulación de Preguntas: PICO vs. PECO",
+    "text": "Formulación de Preguntas: PICO vs. PECO\nLa mayoría de estudios biológicos evalúan exposiciones a factores estresantes en lugar de intervenciones médicas directas.\n\nPICO (Clínico): Population, Intervention, Comparison, Outcome\nPECO (Ecológico/Ambiental): Population, Exposure, Comparison, Outcome\n\nEjemplo Aplicado (PECO):\n\nP: Comunidades de ectotermos terrestres en el Neotrópico.\nE: Incremento de \\(+2^\\circ\\text{C}\\) en la temperatura media marina.\nC: Registros térmicos basales / sitios de control no alterados.\nO: Tasa de fecundidad y cambio en la diversidad funcional."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#otros-marcos-de-pregunta",
+    "href": "revisiones_sistematicas.html#otros-marcos-de-pregunta",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Otros Marcos de Pregunta",
+    "text": "Otros Marcos de Pregunta\n\nPEO (Population, Exposure, Outcome):\n\nPrescinde del comparador explícito cuando no hay sitio de control en hábitats naturales.\n\nSPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research type):\n\nOrientado a estudios cualitativos, conductuales o etológicos.\n\nPCC (Population, Concept, Context):\n\nUtilizado en Revisiones de Alcance (Scoping Reviews)."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#estándares-de-reporte-roses-y-prisma-ecoevo",
+    "href": "revisiones_sistematicas.html#estándares-de-reporte-roses-y-prisma-ecoevo",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Estándares de Reporte: ROSES y PRISMA-EcoEvo",
+    "text": "Estándares de Reporte: ROSES y PRISMA-EcoEvo\nLa declaración PRISMA tradicional presenta limitaciones al abordar la no independencia de datos ecológicos.\n\n\nROSES\nRepOrting standards for Systematic Evidence Syntheses\n\nDesarrollado por la CEE.\nFormularios específicos para revisiones y mapas sistemáticos ambientales.\nAuditoría rigurosa de estrategias de búsqueda.\n\n\nPRISMA-EcoEvo\nExtensión oficial para Ecología y Evolución\n\nLista de verificación de 27 ítems.\nRegistro explícito de no independencia (filogenia, medidas repetidas).\nExige compartir códigos e insumos estadísticos abiertos."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#flujo-metodológico",
+    "href": "revisiones_sistematicas.html#flujo-metodológico",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Flujo Metodológico",
+    "text": "Flujo Metodológico"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#estrategia-de-búsqueda-y-selección",
+    "href": "revisiones_sistematicas.html#estrategia-de-búsqueda-y-selección",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Estrategia de Búsqueda y Selección",
+    "text": "Estrategia de Búsqueda y Selección\n\nEcuaciones de Búsqueda:\n\nUso de operadores booleanos (AND, OR, NOT), comodines (*), y proximidad.\nBases de datos: Web of Science, Scopus, PubMed, Google Scholar.\n\nLiteratura Gris:\n\nInformes gubernamentales, tesis doctorales, repositorios de preprints.\nIndispensable para contrarrestar el sesgo de publicación.\n\nCriba e Inter-evaluador:\n\nCriba por al menos 2 evaluadores independientes en ciego.\nMedición del acuerdo mediante el coeficiente Kappa de Cohen (\\(\\kappa\\))."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#métricas-de-tamaño-del-efecto",
+    "href": "revisiones_sistematicas.html#métricas-de-tamaño-del-efecto",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Métricas de Tamaño del Efecto",
+    "text": "Métricas de Tamaño del Efecto\n1. Razón de Respuesta Logarítmica (\\(\\ln RR\\))\n\\[\n\\ln RR = \\ln\\left(\\frac{\\bar{X}_E}{\\bar{X}_C}\\right), \\quad v_{\\ln RR} = \\frac{S_E^2}{n_E \\bar{X}_E^2} + \\frac{S_C^2}{n_C \\bar{X}_C^2}\n\\]\n\nExpresa el cambio proporcional respecto al control.\n\n2. Diferencia de Medias Estandarizada (\\(g\\) de Hedges)\n\\[\ng = J \\times \\left( \\frac{\\bar{X}_E - \\bar{X}_C}{S_{pooled}} \\right), \\quad J = 1 - \\frac{3}{4(n_E + n_C - 2) - 1}\n\\]\n\nCorrige la sobreestimación en muestras pequeñas mediante el factor \\(J\\).\n\n3. Razón Logarítmica de Varianzas (\\(\\ln VR\\))\n\nMide el impacto en la plasticidad fenotípica o variabilidad intra-tratamiento."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#modelos-multinivel-y-dependencia-estadística",
+    "href": "revisiones_sistematicas.html#modelos-multinivel-y-dependencia-estadística",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Modelos Multinivel y Dependencia Estadística",
+    "text": "Modelos Multinivel y Dependencia Estadística\nLos datos biológicos violan el supuesto de independencia:\n\nMúltiples efectos dentro de un mismo artículo (efecto de estudio).\nEstructura de filogenia compartida entre especies (matriz de covarianza filogenética).\n\n# Ejemplo de ajuste multinivel en R con metafor\nlibrary(metafor)\n\nmodel_ml &lt;- rma.mv(\n  yi = lnRR, \n  V = var_lnRR, \n  random = list(~ 1 | study_id, ~ 1 | es_id, ~ 1 | species_phylo),\n  R = list(species_phylo = phylo_cor_matrix),\n  data = dataset_bio\n)"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#visualización-moderna-orchard-2.0",
+    "href": "revisiones_sistematicas.html#visualización-moderna-orchard-2.0",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Visualización Moderna: orchaRd 2.0",
+    "text": "Visualización Moderna: orchaRd 2.0\nSustituye los gráficos de bosque (forest plots) por gráficos de orquídea (orchard plots):\n\n\n\nIntervalo de Confianza (95% IC): Precisión del estimador global.\nIntervalo de Predicción (95% IP): Rango esperado para futuros estudios primarios (heterogeneidad biológica real).\nBeeswarm (Diagrama de abejas): Despliega cada tamaño de efecto \\(y_i\\) con tamaño proporcional a su precisión (\\(1/SE\\)).\nMétricas: Calcula la heterogeneidad multinivel \\(I^2_{ml}\\) y \\(R^2_{ml}\\)."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#ecosistema-de-software-especializado",
+    "href": "revisiones_sistematicas.html#ecosistema-de-software-especializado",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Ecosistema de Software Especializado",
+    "text": "Ecosistema de Software Especializado\n\n\n\nPlataforma\nTipo de Acceso\nEnfoque Principal\n\n\n\n\nCADIMA\nGratuito (CEE/JKI)\nFlujo completo en ecología, agronomía y ciencias ambientales\n\n\nCovidence\nComercial (Cochrane)\nCriba y extracción colaborativa con ciego automático\n\n\nRayyan\nFreemium\nCriba rápida de títulos/resúmenes en entorno móvil y web\n\n\nASReview\nCódigo Abierto\nCriba asistida por Machine Learning (Aprendizaje Activo)\n\n\nmetafor & orchaRd\nR / Gratuito\nModelado estadístico multinivel, filogenético y visualización"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#inteligencia-artificial-en-el-flujo-de-trabajo",
+    "href": "revisiones_sistematicas.html#inteligencia-artificial-en-el-flujo-de-trabajo",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Inteligencia Artificial en el Flujo de Trabajo",
+    "text": "Inteligencia Artificial en el Flujo de Trabajo\n\nFormulación y Búsqueda: Traducción de PECO a sintaxis complejas.\nCriba Inteligente: Reordenamiento por relevancia en tiempo real mediante aprendizaje activo.\nExtracción Automática: Lectura de tablas en PDF y extracción de datos cuantitativos (\\(n, \\bar{X}, SD\\)).\n\n\n\n\n\n\n\nEficiencia\n\n\nEl soporte con herramientas basadas en IA permite reducir la carga de trabajo manual entre un 50% y un 75%."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#marcos-de-reporte-para-ia-prisma-traice",
+    "href": "revisiones_sistematicas.html#marcos-de-reporte-para-ia-prisma-traice",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Marcos de Reporte para IA: PRISMA-trAIce",
+    "text": "Marcos de Reporte para IA: PRISMA-trAIce\nGarantiza la trazabilidad del trabajo híbrido entre humanos y algoritmos."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#riesgos-y-limitaciones-de-la-ia",
+    "href": "revisiones_sistematicas.html#riesgos-y-limitaciones-de-la-ia",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Riesgos y Limitaciones de la IA",
+    "text": "Riesgos y Limitaciones de la IA\n\nSesgo Algorítmico:\n\nLos modelos LLM heredan sesgos taxonómicos y geográficos globales.\nRiesgo de descartar investigación regional o de especies no modelo.\n\n“Alucinaciones” y Fabricación de Datos:\n\nConfusión entre SD y SE, o invención de números/citas.\nUn solo dato erróneo altera el cálculo del modelo multinivel.\n\nCaja Negra e Irreproducibilidad:\n\nCambios no documentados en modelos comerciales cerrados.\nExige publicar prompts, parámetros de temperatura y versiones de la API."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#principio-de-responsabilidad-humana",
+    "href": "revisiones_sistematicas.html#principio-de-responsabilidad-humana",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Principio de Responsabilidad Humana",
+    "text": "Principio de Responsabilidad Humana\n\n\n\n\n\n\nDirectriz Consensuada (Cochrane / CEE)\n\n\nLa Inteligencia Artificial es una herramienta de soporte a la decisión (decision-support tool).\nLas decisiones metodológicas sustantivas, la evaluación final de sesgos y la interpretación teórica son responsabilidad inalienable de los investigadores humanos."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#puntos-clave",
+    "href": "revisiones_sistematicas.html#puntos-clave",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Puntos Clave",
+    "text": "Puntos Clave\n\nLa investigación biológica requiere estándares adaptados (ROSES, PRISMA-EcoEvo) para abordar la complejidad ecológica y filogenética.\nLos modelos metaanalíticos multinivel y las herramientas modernas de visualización (orchaRd) son indispensables para manejar datos no independientes.\nLa Inteligencia Artificial acelera significativamente los flujos de revisión, pero su integración debe guiarse bajo normativas como PRISMA-trAIce.\nLa supervisión humana experta sigue siendo la salvaguarda ética y científica fundamental para la síntesis del conocimiento."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#preguntas-o-comentarios",
+    "href": "revisiones_sistematicas.html#preguntas-o-comentarios",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "¿Preguntas o Comentarios?",
+    "text": "¿Preguntas o Comentarios?\nGracias por su atención.\nConsulte el documento fuente para el desglose detallado de ecuaciones y referencias bibliográficas."
+  }
+]
