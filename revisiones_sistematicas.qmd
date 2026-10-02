@@ -2,9 +2,10 @@
 title: "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica"
 subtitle: "Fundamentos Metodológicos, Herramientas Digitales e Implicaciones Éticas de la IA"
 author: "Rodian Fonseca Campuzano"
+date: 2026/10/02
 format:
   revealjs:
-    theme: simple
+    theme: default
     logo: 
       path: logo.png
     title-slide-attributes:
@@ -22,7 +23,7 @@ format:
     code-copy: true
     code-fold: false
     highlight-style: github
-    chalkboard: false
+    preview-links: auto
     width: 1366
     height: 900
 ---
@@ -35,13 +36,15 @@ format:
 
 3.  **Fases en el Desarrollo Metodológico**
 
-4.  **Síntesis Cuantitativa y Modelado Multinivel**
+4.  **Síntesis Cuantitativa y Metaanálisis**
 
-5.  **Ecosistema de Herramientas Digitales**
+5.  **Ecosistema de Herramientas Digitales e IA**
 
-6.  **Inteligencia Artificial: Automatización y Estándares**
+6.  **Desafíos Éticos e Implicaciones**
 
-7.  **Desafíos Éticos y Conclusiones**
+7.  **Ejemplos Prácticos en Biología**
+
+8. **Conclusiones**
 
 # 1. Fundamentos y Tipología de la Síntesis de Evidencia {background-color="#1e293b"}
 
@@ -55,7 +58,10 @@ format:
 
   - Subjetividad e imposibilidad de réplica.
 
-- La **Revisión Sistemática** garantiza transparencia, reproducibilidad y rigor metodológico.
+::: {.callout-note}
+## Alternativa
+La **Revisión Sistemática** garantiza transparencia, reproducibilidad y rigor metodológico.
+:::
 
 ## Taxonomía de la Síntesis de Evidencia {.smaller}
 
@@ -128,7 +134,7 @@ La declaración PRISMA tradicional presenta limitaciones al abordar la no indepe
 
 *RepOrting standards for Systematic Evidence Syntheses*
 
-- Desarrollado por la CEE.
+- Desarrollado por la CEE^[*Collaboration for Environmental Evidence*].
 
 - Formularios específicos para revisiones y mapas sistemáticos ambientales.
 
@@ -160,21 +166,15 @@ La declaración PRISMA tradicional presenta limitaciones al abordar la no indepe
 flowchart LR
   subgraph SGA [" "]
   direction TB
-    A["1. Pregunta y Protocolo
-    (OSF/PROSPERO)"] --> B["2. Búsqueda Bibliográfica + 
-    Literatura Gris"]
+    A["1. Pregunta y Protocolo (OSF/PROSPERO)"] --> B["2. Búsqueda Bibliográfica + Literatura Gris"]
   end
   subgraph SGB [" "]
   direction TB
-    C["3. Criba a Ciego Doble 
-    (Título/Resumen → Texto Completo)"] --> D["4. Evaluación Crítica de Sesgo 
-    (CEESAT)"]
+    C["3. Criba a Ciego Doble (Título/Resumen → Texto Completo)"] --> D["4. Evaluación Crítica de Sesgo (CEESAT)"]
   end
   subgraph SGC [" "]
   direction TB
-    E["5. Extracción Sistemática de Metadatos 
-    y Tamaños del Efecto"] --> F["6. Síntesis Estadística y 
-    Metaanálisis Multinivel"]
+    E["5. Extracción Sistemática de Metadatos y Tamaños del Efecto"] --> F["6. Síntesis Estadística y Metaanálisis Multinivel"]
   end
   SGA --> SGB
   SGB --> SGC
@@ -259,12 +259,12 @@ model_ml <- rma.mv(
 )
 ```
 
-## Visualización Moderna: `orchaRd` 2.0 {.smaller}
+## Visualización Moderna: `orchaRd` 2.0 
 
 Sustituye los gráficos de bosque (*forest plots*) por **gráficos de orquídea (*orchard plots*)**:
 
 ::::: columns
-::: {.column width="40%"}
+::: {.column width="60%"}
 - **Intervalo de Confianza (95% IC):** Precisión del estimador global.
 
 - **Intervalo de Predicción (95% IP):** Rango esperado para futuros estudios primarios (heterogeneidad biológica real).
@@ -274,8 +274,8 @@ Sustituye los gráficos de bosque (*forest plots*) por **gráficos de orquídea 
 - **Métricas:** Calcula la heterogeneidad multinivel $I^2_{ml}$ y $R^2_{ml}$.
 :::
 
-::: {.column width="60%"}
-![](https://figures.semanticscholar.org/2d09fe92a6753684948f9b025707fcfe50c3fa62/9-Figure4-1.png){height="700px"}
+::: {.column width="40%"}
+![](https://figures.semanticscholar.org/2d09fe92a6753684948f9b025707fcfe50c3fa62/9-Figure4-1.png){height="600px"}
 :::
 :::::
 
@@ -289,7 +289,7 @@ Sustituye los gráficos de bosque (*forest plots*) por **gráficos de orquídea 
 | [**Covidence**](https://www.covidence.org/){.external target="_blank"} | Comercial (Cochrane) | Criba y extracción colaborativa con ciego automático |
 | [**Rayyan**](https://www.rayyan.ai/){.external target="_blank"} | Freemium | Criba rápida de títulos/resúmenes en entorno móvil y web |
 | [**ASReview**](https://asreview.nl/){.external target="_blank"} | Código Abierto | Criba asistida por Machine Learning (Aprendizaje Activo) |
-| [**`metafor`**](https://www.metafor-project.org/doku.php/metafor){.external target="_blank"} **& [`orchaRd`](https://daniel1noble.github.io/orchaRd/){.external target="_blank"}** | R / Gratuito | Modelado estadístico multinivel, filogenético y visualización |
+| [**`metafor`**](https://www.metafor-project.org/doku.php/metafor){.external target="_blank"} **&** [**`orchaRd`**](https://daniel1noble.github.io/orchaRd/){.external target="_blank"} | R / Gratuito | Modelado estadístico multinivel, filogenético y visualización |
 
 ## Inteligencia Artificial en el Flujo de Trabajo
 
@@ -350,7 +350,7 @@ El soporte con herramientas basadas en IA permite reducir la carga de trabajo ma
 
   - Cambios no documentados en modelos comerciales cerrados.
 
-  - Exige publicar *prompts*, parámetros de temperatura y versiones de la API.
+  - Exige publicar *prompts*, parámetros de temperatura y versiones de la API^[*Application Programming Interface*].
 
 ## Principio de Responsabilidad Humana
 
@@ -364,17 +364,184 @@ Las decisiones metodológicas sustantivas, la evaluación final de sesgos y la i
 
 ![](https://papersflow.ai/blog/systematic-literature-review-ai-agents.webp){fig-align="center"}
 
-# 7. Conclusiones {background-color="#1e293b"}
+# 7. Ejemplos en Biología {background-color="#1e293b"}
 
-## Puntos Clave
+## Ejemplo Práctico 1: Metaanálisis Multinivel en Biología de Conservación y Cambio Climático
+
+### Título de la Investigación
+
+*Efectos del estrés térmico por olas de calor marinas en la tasa de blanqueamiento y la calcificación de corales escleractinios (Scleractinia) en arrecifes tropicales: Una revisión sistemática y metaanálisis multinivel.*
+
+![A part of Moofushi's bleached coral reef (Alifu Dhaalu Atoll, Maldives), damaged by warming sea temperatures. It was strongly hit by 1998's El Niño; no live coral is still practically visible 8 years later. [Fuente](https://commons.wikimedia.org/wiki/File:Moofushi_bleached_corals.JPG#/media/File:Moofushi_bleached_corals.JPG){targe="_blank"}](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Moofushi_bleached_corals.JPG/500px-Moofushi_bleached_corals.JPG)
+
+
+## Paso 1: Definición Operativa de la Pregunta (PECO) y Registro del Protocolo {.smaller}
+
+1. **Población (P):** Colonias adultas de corales escleractinios formadores de arrecifes pertenecientes a las familias *Acroporidae* y *Poritidae* en zonas arrecifales tropicales.
+2. **Exposición (E):** Eventos de estrés térmico definidos como olas de calor marinas donde la temperatura superficial del mar (SST) excede en $\ge +1.5\text{ }^\circ\text{C}$ la media máxima estival histórica por una duración continua de $\ge 14$ días.
+3. **Comparador (C):** Colonias conspecíficas o controles dentro del mismo hábitat expuestas a condiciones térmicas basales estivales normales ($0\text{ }^\circ\text{C}$ de anomalía).
+4. **Resultados / Outcomes (O):**
+* *Resultado Primario:* Tasa de blanqueamiento coralino, medida como el porcentaje de densidad celular de zooxantelas (*Symbiodiniaceae*) perdidas por $\text{cm}^2$ o la disminución en la concentración de clorofila $a$ ($\mu\text{g cm}^{-2}$).
+* *Resultado Secundario:* Tasa de calcificación neta del esqueleto coralino expresada en $\text{g CaCO}_3\text{ cm}^{-2}\text{ año}^{-1}$.
+
+5. **Registro Prospectivo del Protocolo:** Registrado en la plataforma *Open Science Framework* (OSF) antes de iniciar la criba bibliográfica (DOI: `10.17605/OSF.IO/EXAMPLE_CORAL_2026`).
+
+## Paso 2: Cadena Sintáctica de Búsqueda y Literatura Gris
+
+Se diseñó una ecuación sintáctica estructurada ejecutada en *Web of Science Core Collection*, *Scopus*, y *PubMed*:
+
+```text
+("Scleractinia" OR "coral reef*" OR "Acropora*" OR "Porites*")
+AND ("thermal stress" OR "marine heatwave*" OR "ocean warming" OR "elevated temperature")
+AND ("bleaching" OR "zooxanthellae loss" OR "calcification" OR "calcification rate")
+```
+
+Para controlar el sesgo de publicación, se consultaron tres fuentes de literatura gris:
+
+- Informes técnicos de la *National Oceanic and Atmospheric Administration* (NOAA Coral Reef Watch).
+
+- Actas de congresos de la *International Coral Reef Society* (ICRS).
+
+- Repositorios de preprints (*bioRxiv* y *ecoEvoRxiv*).
+
+## Paso 3: Criba e Inter-evaluación bajo PRISMA-trAIce
+
+1. **Fase de Calibración:** Dos investigadores y el módulo de aprendizaje activo de *ASReview* evaluaron una muestra de 150 resúmenes obteniendo un coeficiente de concordancia de $\kappa = 0.82$.
+2. **Criba de Títulos y Resúmenes:** Criba de 1,170 registros desduplicados en CADIMA, seleccionando 140 artículos a texto completo.
+3. **Evaluación en Texto Completo:** Selección final de 38 estudios primarios independientes que aportaron 112 tamaños del efecto cuantitativos.
+
+## Paso 4: Evaluación de Riesgo de Sesgo con CEESAT
+
+Cada estudio fue evaluado con la herramienta CEESAT^[*Collaboration for Environmental Evidence Synthesis Appraisal Tool*] analizando:
+
+- Aleatoriedad en la selección de colonias y existencia de sitios de control.
+
+- Control de variables confusoras (irradiancia solar PAR y flujo de agua).
+
+- Calibración de sensores de temperatura *in situ*.
+
+## Paso 5: Extracción de Datos y Métricas de Tamaño del Efecto {.smaller}
+
+| Estudio Primario | Taxón / Especie | Región | Anomalía (°C) | $\bar{X}_E$ (%) | $S_E$ | $n_E$ | $\bar{X}_C$ (%) | $S_C$ | $n_C$ | $\ln RR$ | $v_{\ln RR}$ |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| García et al. (2021) | *Acropora palmata* | Caribe | $+2.0$ | 68.5 | 12.1 | 15 | 12.3 | 4.2 | 15 | 1.717 | 0.0099 |
+| Muñoz & Silva (2022) | *Porites astreoides* | Caribe | $+2.0$ | 34.2 | 8.5 | 12 | 10.1 | 3.1 | 12 | 1.220 | 0.0125 |
+| Chen et al. (2023) | *Acropora cervicornis* | Indo-Pacífico | $+2.5$ | 82.0 | 10.4 | 20 | 8.5 | 2.8 | 20 | 2.267 | 0.0063 |
+
+### Demostración Matemática de ejemplo para García et al. (2021)
+
+$$\ln RR = \ln\left(\frac{68.5}{12.3}\right) = \ln(5.5691) \approx 1.717$$
+
+$$v_{\ln RR} = \frac{12.1^2}{15 \times 68.5^2} + \frac{4.2^2}{15 \times 12.3^2} = \frac{146.41}{70383.75} + \frac{17.64}{2269.35} \approx 0.0099$$
+
+## Paso 6: Script de Ejecución en R para el Modelo Multinivel
+
+```r
+library(metafor)
+library(orchaRd)
+
+# 1. Ajustar modelo metaanalítico multinivel con covarianza filogenética
+model_corales <- rma.mv(
+  yi = lnRR, 
+  V = v_lnRR, 
+  mods = ~ Anomalia_Termica + Region,
+  random = list(~ 1 | ID_Estudio, ~ 1 | ID_Efecto, ~ 1 | Especie_Phylo),
+  R = list(Especie_Phylo = phylo_matrix),
+  data = datos_corales,
+  method = "REML"
+)
+
+# 2. Resumen estadístico
+summary(model_corales)
+
+# 3. Visualización con Gráfico de Orquídea (orchaRd 2.0)
+orchard_plot(model_corales, mod = "Region", group = "ID_Estudio",
+             xlab = "Razón de Respuesta Logarítmica (lnRR)",
+             legend.pos = "top.left")
+
+```
+
+## Resultados Estadísticos
+
+El modelo indicó un tamaño del efecto global significativo de $\ln RR = 1.64$ ($95\%\text{ IC} = [1.28, 2.00]$, $p < 0.001$), equivalente a un incremento del $+415\%$ en el blanqueamiento. 
+
+La heterogeneidad desglosada ($I^2_{ml}$) asignó $42\%$ a diferencias entre estudios, $28\%$ a la estructura filogenética y $30\%$ al error residual.
+
+
+
+## Ejemplo Práctico 2: Revisión Sistemática Tradicional (Síntesis Cualitativa)
+
+### Título de la Investigación
+
+*Eficacia de las técnicas de restauración ecológica pasiva frente a la activa en la recuperación de servicios ecosistémicos de polinización en agroecosistemas neotropicales degradados: Una revisión sistemática cualitativa bajo el estándar ROSES.*
+
+![Tree cover being re-established through assisted natural regeneration in recovered cattle pasture in the Maya Biosphere Reserve. Photo credit: ©WCS Guatemala. [Fuente](https://www.pbs.org/wnet/nature/blog/an-overlooked-opportunity-for-forest-restoration/)](https://www.pbs.org/wnet/nature/files/2023/09/Forest-Restoration-Photo-4-scaled-e1694634541736-1280x721.jpg)
+
+## Paso 1: Definición de la Pregunta (PECO) y Protocolo ROSES
+
+1. **Población (P):** Agroecosistemas tropicales y paisajes agrícolas degradados en América Latina.
+2. **Exposición / Intervención (E):** Restauración ecológica pasiva (regeneración asistida/exclusión de ganado) frente a activa (siembra de franjas nectaríferas y corredores florales).
+3. **Comparador (C):** Monocultivos agrícolas intensivos adyacentes no restaurados o zonas degradadas basales.
+4. **Resultados / Outcomes (O):** Recuperación funcional de la polinización (riqueza de polinizadores nativos, tasa de visitas a flores y cuajado de frutos).
+5. **Registro del Protocolo:** Registrado en la *Collaboration for Environmental Evidence* (ID: `CEE-26-089`).
+
+## Paso 2: Búsqueda Multilingüe y Fuentes Registradas
+
+Búsqueda realizada en español, inglés y portugués en *Web of Science*, *SciELO*, *Redalyc*, *DOAJ* y literatura gris de institutos regionales (Instituto Humboldt, EMBRAPA, CONABIO):
+
+```text
+("restauración ecológica" OR "ecological restoration" OR "regeneración natural") 
+AND ("poliniza*" OR "pollination" OR "abejas" OR "bees") 
+AND ("agroecosistema*" OR "agricultural landscape") 
+AND ("Neotrópico" OR "América Latina" OR "Neotropics")
+```
+
+## Paso 3: Selección y Diagrama ROSES
+
+* Registros brutos recuperados: 820.
+* Registros tras desduplicar: 660.
+* Excluidos en título/resumen: 510.
+* Texto completo evaluado: 150 artículos (112 excluidos con causa documentada).
+* **Estudios seleccionados para la síntesis:** 38 estudios primarios cualitativos u observacionales.
+
+## Paso 4: Justificación Metodológica de la Imposibilidad de Metaanálisis
+
+Se determinó no realizar síntesis cuantitativa debido a tres barreras metodológicas:
+
+1. **Heterogeneidad Métrica Extrema:** Variabilidad de variables no estandarizables (número de granos de polen por estigma vs. abundancia en trampas *pan-trap* vs. % aborto de frutos).
+2. **Ausencia de Medidas de Dispersión:** El $60\%$ de los reportes técnicos de literatura gris omitió la desviación estándar ($SD$), error estándar ($SE$) o tamaños muestrales ($n$).
+3. **Mezcla de Diseños:** Incompatibilidad entre experimentos manipulativos de campo e inventarios etnoecológicos cualitativos.
+
+## Paso 5: Matriz Cualitativa de Evidencia y Síntesis Narrativa {.smaller .scrollable}
+
+| Categoría de Restauración | Ecosistema / Cultivo | Estudios ($n$) | Dirección del Efecto | Consenso Cualitativo y Mecanismos | Calidad CEESAT |
+| --- | --- | --- | --- | --- | --- |
+| **Restauración Activa:** Franjas florales | Cafetales y frutales | 16 | 14 Positivo, 2 Neutro | Aumento en la riqueza de abejas nativas (*Meliponini*). La oferta de recursos florales previene cuellos de botella en sequía. | **Alta** (Bajo riesgo de sesgo) |
+| **Restauración Pasiva:** Exclusión de ganado | Bosque seco / Pastizales | 12 | 7 Positivo, 4 Neutro, 1 Negativo | Recuperación lenta de la red de interacción. Eficaz únicamente con bosque nativo adyacente a $< 500\text{ m}$. | **Moderada** |
+| **Plantaciones Mixtas:** Árboles nativos | Sistemas agroforestales | 10 | 9 Positivo, 1 Neutro | Incremento en polinizadores de la familia *Ceratopogonidae*. La sombra y hojarasca optimizan la nidificación. | **Alta** |
+
+## Paso 6: Mapeo de Vacíos de Evidencia (*Gap Mapping*)
+
+El reporte final bajo la normativa ROSES identificó dos vacíos del conocimiento críticos:
+
+* **Vacío Geográfico:** El $70\%$ de la evidencia se concentra en Brasil y Colombia; escasez total de datos primarios en América Central y el Caribe.
+* **Vacío Taxonómico:** Sesgo del $85\%$ de los estudios hacia abejas (*Apis mellifera* y *Meliponini*), ignorando el rol funcional de dípteros, coleópteros y quirópteros.
+
+# 8. Conclusiones {background-color="#1e293b"}
+
+## Puntos Clave {.smaller}
 
 1.  La investigación biológica requiere estándares adaptados (**ROSES**, **PRISMA-EcoEvo**) para abordar la complejidad ecológica y filogenética.
 
 2.  Los modelos metaanalíticos multinivel y las herramientas modernas de visualización (`orchaRd`) son indispensables para manejar datos no independientes.
 
-3.  La Inteligencia Artificial acelera significativamente los flujos de revisión, pero su integración debe guiarse bajo normativas como **PRISMA-trAIce**.
+3.  La elección entre un metaanálisis cuantitativo y una revisión sistemática cualitativa no depende de la preferencia del investigador, sino de la **homogeneidad de las métricas** y la **calidad del reporte de dispersión** en los estudios primarios.
 
-4.  La **supervisión humana experta** sigue siendo la salvaguarda ética y científica fundamental para la síntesis del conocimiento.
+4.  La divulgación de datos procesados, scripts estadísticos en R y listas de verificación (**PRISMA-EcoEvo** / **ROSES**) constituye un requisito indispensable para garantizar la replicabilidad científica.
+
+5.  La Inteligencia Artificial acelera significativamente los flujos de revisión, pero su integración debe guiarse bajo normativas como **PRISMA-trAIce**.
+
+6.  La **supervisión humana experta** sigue siendo la salvaguarda ética y científica fundamental para la síntesis del conocimiento.
 
 # {background-color="#1e293b"}
 

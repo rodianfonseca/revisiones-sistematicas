@@ -4,14 +4,14 @@
     "href": "revisiones_sistematicas.html#contenido",
     "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
     "section": "Contenido",
-    "text": "Contenido\n\nFundamentos y Tipología de la Síntesis de Evidencia\nMarcos Conceptuales y Estándares de Reporte\nFases en el Desarrollo Metodológico\nSíntesis Cuantitativa y Modelado Multinivel\nEcosistema de Herramientas Digitales\nInteligencia Artificial: Automatización y Estándares\nDesafíos Éticos y Conclusiones"
+    "text": "Contenido\n\nFundamentos y Tipología de la Síntesis de Evidencia\nMarcos Conceptuales y Estándares de Reporte\nFases en el Desarrollo Metodológico\nSíntesis Cuantitativa y Metaanálisis\nEcosistema de Herramientas Digitales e IA\nDesafíos Éticos e Implicaciones\nEjemplos Prácticos en Biología\nConclusiones"
   },
   {
     "objectID": "revisiones_sistematicas.html#la-necesidad-de-síntesis-en-biología",
     "href": "revisiones_sistematicas.html#la-necesidad-de-síntesis-en-biología",
     "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
     "section": "La Necesidad de Síntesis en Biología",
-    "text": "La Necesidad de Síntesis en Biología\n\nAcumulación exponencial de literatura: Imposibilidad de abarcar todo el conocimiento con revisiones narrativas tradicionales.\nRiesgos de las Revisiones Narrativas:\n\nSesgo de selección explícito o implícito.\nSubjetividad e imposibilidad de réplica.\n\nLa Revisión Sistemática garantiza transparencia, reproducibilidad y rigor metodológico."
+    "text": "La Necesidad de Síntesis en Biología\n\nAcumulación exponencial de literatura: Imposibilidad de abarcar todo el conocimiento con revisiones narrativas tradicionales.\nRiesgos de las Revisiones Narrativas:\n\nSesgo de selección explícito o implícito.\nSubjetividad e imposibilidad de réplica.\n\n\n\n\n\n\n\n\nAlternativa\n\n\nLa Revisión Sistemática garantiza transparencia, reproducibilidad y rigor metodológico."
   },
   {
     "objectID": "revisiones_sistematicas.html#taxonomía-de-la-síntesis-de-evidencia",
@@ -46,14 +46,14 @@
     "href": "revisiones_sistematicas.html#estándares-de-reporte-roses-y-prisma-ecoevo",
     "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
     "section": "Estándares de Reporte: ROSES y PRISMA-EcoEvo",
-    "text": "Estándares de Reporte: ROSES y PRISMA-EcoEvo\nLa declaración PRISMA tradicional presenta limitaciones al abordar la no independencia de datos ecológicos.\n\n\nROSES\nRepOrting standards for Systematic Evidence Syntheses\n\nDesarrollado por la CEE.\nFormularios específicos para revisiones y mapas sistemáticos ambientales.\nAuditoría rigurosa de estrategias de búsqueda.\n\n\nPRISMA-EcoEvo\nExtensión oficial para Ecología y Evolución\n\nLista de verificación de 27 ítems.\nRegistro explícito de no independencia (filogenia, medidas repetidas).\nExige compartir códigos e insumos estadísticos abiertos."
+    "text": "Estándares de Reporte: ROSES y PRISMA-EcoEvo\nLa declaración PRISMA tradicional presenta limitaciones al abordar la no independencia de datos ecológicos.\n\n\nROSES\nRepOrting standards for Systematic Evidence Syntheses\n\nDesarrollado por la CEE1.\nFormularios específicos para revisiones y mapas sistemáticos ambientales.\nAuditoría rigurosa de estrategias de búsqueda.\n\n\nPRISMA-EcoEvo\nExtensión oficial para Ecología y Evolución\n\nLista de verificación de 27 ítems.\nRegistro explícito de no independencia (filogenia, medidas repetidas).\nExige compartir códigos e insumos estadísticos abiertos.\n\n\nCollaboration for Environmental Evidence"
   },
   {
     "objectID": "revisiones_sistematicas.html#flujo-metodológico",
     "href": "revisiones_sistematicas.html#flujo-metodológico",
     "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
     "section": "Flujo Metodológico",
-    "text": "Flujo Metodológico"
+    "text": "Flujo Metodológico\n\n\n\n\n\n\n\n\n\n\n\n\n\nOSF (Open Science Framework)\nPROSPERO\nCEESAT (Collaboration for Environmental Evidence Synthesis Appraisal Tool)"
   },
   {
     "objectID": "revisiones_sistematicas.html#estrategia-de-búsqueda-y-selección",
@@ -95,21 +95,14 @@
     "href": "revisiones_sistematicas.html#inteligencia-artificial-en-el-flujo-de-trabajo",
     "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
     "section": "Inteligencia Artificial en el Flujo de Trabajo",
-    "text": "Inteligencia Artificial en el Flujo de Trabajo\n\nFormulación y Búsqueda: Traducción de PECO a sintaxis complejas.\nCriba Inteligente: Reordenamiento por relevancia en tiempo real mediante aprendizaje activo.\nExtracción Automática: Lectura de tablas en PDF y extracción de datos cuantitativos (\\(n, \\bar{X}, SD\\)).\n\n\n\n\n\n\n\nEficiencia\n\n\nEl soporte con herramientas basadas en IA permite reducir la carga de trabajo manual entre un 50% y un 75%."
-  },
-  {
-    "objectID": "revisiones_sistematicas.html#marcos-de-reporte-para-ia-prisma-traice",
-    "href": "revisiones_sistematicas.html#marcos-de-reporte-para-ia-prisma-traice",
-    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
-    "section": "Marcos de Reporte para IA: PRISMA-trAIce",
-    "text": "Marcos de Reporte para IA: PRISMA-trAIce\nGarantiza la trazabilidad del trabajo híbrido entre humanos y algoritmos."
+    "text": "Inteligencia Artificial en el Flujo de Trabajo\n\nFormulación y Búsqueda: Traducción de PECO a sintaxis complejas.\nCriba Inteligente: Reordenamiento por relevancia en tiempo real mediante aprendizaje activo.\nExtracción Automática: Lectura de tablas en PDF y extracción de datos cuantitativos (\\(n, \\bar{X}, SD\\)).\nMarcos de Reporte para IA: PRISMA-trAIce garantiza la trazabilidad del trabajo híbrido entre humanos y algoritmos.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEl soporte con herramientas basadas en IA permite reducir la carga de trabajo manual entre un 50% y un 75%."
   },
   {
     "objectID": "revisiones_sistematicas.html#riesgos-y-limitaciones-de-la-ia",
     "href": "revisiones_sistematicas.html#riesgos-y-limitaciones-de-la-ia",
     "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
     "section": "Riesgos y Limitaciones de la IA",
-    "text": "Riesgos y Limitaciones de la IA\n\nSesgo Algorítmico:\n\nLos modelos LLM heredan sesgos taxonómicos y geográficos globales.\nRiesgo de descartar investigación regional o de especies no modelo.\n\n“Alucinaciones” y Fabricación de Datos:\n\nConfusión entre SD y SE, o invención de números/citas.\nUn solo dato erróneo altera el cálculo del modelo multinivel.\n\nCaja Negra e Irreproducibilidad:\n\nCambios no documentados en modelos comerciales cerrados.\nExige publicar prompts, parámetros de temperatura y versiones de la API."
+    "text": "Riesgos y Limitaciones de la IA\n\nSesgo Algorítmico:\n\nLos modelos LLM heredan sesgos taxonómicos y geográficos globales.\nRiesgo de descartar investigación regional o de especies no modelo.\n\n“Alucinaciones” y Fabricación de Datos:\n\nConfusión entre SD y SE, o invención de números/citas.\nUn solo dato erróneo altera el cálculo del modelo multinivel.\n\nCaja Negra e Irreproducibilidad:\n\nCambios no documentados en modelos comerciales cerrados.\nExige publicar prompts, parámetros de temperatura y versiones de la API1.\n\n\nApplication Programming Interface"
   },
   {
     "objectID": "revisiones_sistematicas.html#principio-de-responsabilidad-humana",
@@ -119,17 +112,115 @@
     "text": "Principio de Responsabilidad Humana\n\n\n\n\n\n\nDirectriz Consensuada (Cochrane / CEE)\n\n\nLa Inteligencia Artificial es una herramienta de soporte a la decisión (decision-support tool).\nLas decisiones metodológicas sustantivas, la evaluación final de sesgos y la interpretación teórica son responsabilidad inalienable de los investigadores humanos."
   },
   {
+    "objectID": "revisiones_sistematicas.html#ejemplo-práctico-1-metaanálisis-multinivel-en-biología-de-conservación-y-cambio-climático",
+    "href": "revisiones_sistematicas.html#ejemplo-práctico-1-metaanálisis-multinivel-en-biología-de-conservación-y-cambio-climático",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Ejemplo Práctico 1: Metaanálisis Multinivel en Biología de Conservación y Cambio Climático",
+    "text": "Ejemplo Práctico 1: Metaanálisis Multinivel en Biología de Conservación y Cambio Climático\nTítulo de la Investigación\nEfectos del estrés térmico por olas de calor marinas en la tasa de blanqueamiento y la calcificación de corales escleractinios (Scleractinia) en arrecifes tropicales: Una revisión sistemática y metaanálisis multinivel.\n\nA part of Moofushi’s bleached coral reef (Alifu Dhaalu Atoll, Maldives), damaged by warming sea temperatures. It was strongly hit by 1998’s El Niño; no live coral is still practically visible 8 years later. Fuente"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-1-definición-operativa-de-la-pregunta-peco-y-registro-del-protocolo",
+    "href": "revisiones_sistematicas.html#paso-1-definición-operativa-de-la-pregunta-peco-y-registro-del-protocolo",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 1: Definición Operativa de la Pregunta (PECO) y Registro del Protocolo",
+    "text": "Paso 1: Definición Operativa de la Pregunta (PECO) y Registro del Protocolo\n\nPoblación (P): Colonias adultas de corales escleractinios formadores de arrecifes pertenecientes a las familias Acroporidae y Poritidae en zonas arrecifales tropicales.\nExposición (E): Eventos de estrés térmico definidos como olas de calor marinas donde la temperatura superficial del mar (SST) excede en \\(\\ge +1.5\\text{ }^\\circ\\text{C}\\) la media máxima estival histórica por una duración continua de \\(\\ge 14\\) días.\nComparador (C): Colonias conspecíficas o controles dentro del mismo hábitat expuestas a condiciones térmicas basales estivales normales (\\(0\\text{ }^\\circ\\text{C}\\) de anomalía).\nResultados / Outcomes (O):\n\n\nResultado Primario: Tasa de blanqueamiento coralino, medida como el porcentaje de densidad celular de zooxantelas (Symbiodiniaceae) perdidas por \\(\\text{cm}^2\\) o la disminución en la concentración de clorofila \\(a\\) (\\(\\mu\\text{g cm}^{-2}\\)).\nResultado Secundario: Tasa de calcificación neta del esqueleto coralino expresada en \\(\\text{g CaCO}_3\\text{ cm}^{-2}\\text{ año}^{-1}\\).\n\n\nRegistro Prospectivo del Protocolo: Registrado en la plataforma Open Science Framework (OSF) antes de iniciar la criba bibliográfica (DOI: 10.17605/OSF.IO/EXAMPLE_CORAL_2026)."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-2-cadena-sintáctica-de-búsqueda-y-literatura-gris",
+    "href": "revisiones_sistematicas.html#paso-2-cadena-sintáctica-de-búsqueda-y-literatura-gris",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 2: Cadena Sintáctica de Búsqueda y Literatura Gris",
+    "text": "Paso 2: Cadena Sintáctica de Búsqueda y Literatura Gris\nSe diseñó una ecuación sintáctica estructurada ejecutada en Web of Science Core Collection, Scopus, y PubMed:\n(\"Scleractinia\" OR \"coral reef*\" OR \"Acropora*\" OR \"Porites*\")\nAND (\"thermal stress\" OR \"marine heatwave*\" OR \"ocean warming\" OR \"elevated temperature\")\nAND (\"bleaching\" OR \"zooxanthellae loss\" OR \"calcification\" OR \"calcification rate\")\nPara controlar el sesgo de publicación, se consultaron tres fuentes de literatura gris:\n\nInformes técnicos de la National Oceanic and Atmospheric Administration (NOAA Coral Reef Watch).\nActas de congresos de la International Coral Reef Society (ICRS).\nRepositorios de preprints (bioRxiv y ecoEvoRxiv)."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-3-criba-e-inter-evaluación-bajo-prisma-traice",
+    "href": "revisiones_sistematicas.html#paso-3-criba-e-inter-evaluación-bajo-prisma-traice",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 3: Criba e Inter-evaluación bajo PRISMA-trAIce",
+    "text": "Paso 3: Criba e Inter-evaluación bajo PRISMA-trAIce\n\nFase de Calibración: Dos investigadores y el módulo de aprendizaje activo de ASReview evaluaron una muestra de 150 resúmenes obteniendo un coeficiente de concordancia de \\(\\kappa = 0.82\\).\nCriba de Títulos y Resúmenes: Criba de 1,170 registros desduplicados en CADIMA, seleccionando 140 artículos a texto completo.\nEvaluación en Texto Completo: Selección final de 38 estudios primarios independientes que aportaron 112 tamaños del efecto cuantitativos."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-4-evaluación-de-riesgo-de-sesgo-con-ceesat",
+    "href": "revisiones_sistematicas.html#paso-4-evaluación-de-riesgo-de-sesgo-con-ceesat",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 4: Evaluación de Riesgo de Sesgo con CEESAT",
+    "text": "Paso 4: Evaluación de Riesgo de Sesgo con CEESAT\nCada estudio fue evaluado con la herramienta CEESAT1 analizando:\n\nAleatoriedad en la selección de colonias y existencia de sitios de control.\nControl de variables confusoras (irradiancia solar PAR y flujo de agua).\nCalibración de sensores de temperatura in situ.\n\nCollaboration for Environmental Evidence Synthesis Appraisal Tool"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-5-extracción-de-datos-y-métricas-de-tamaño-del-efecto",
+    "href": "revisiones_sistematicas.html#paso-5-extracción-de-datos-y-métricas-de-tamaño-del-efecto",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 5: Extracción de Datos y Métricas de Tamaño del Efecto",
+    "text": "Paso 5: Extracción de Datos y Métricas de Tamaño del Efecto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEstudio Primario\nTaxón / Especie\nRegión\nAnomalía (°C)\n\\(\\bar{X}_E\\) (%)\n\\(S_E\\)\n\\(n_E\\)\n\\(\\bar{X}_C\\) (%)\n\\(S_C\\)\n\\(n_C\\)\n\\(\\ln RR\\)\n\\(v_{\\ln RR}\\)\n\n\n\n\nGarcía et al. (2021)\nAcropora palmata\nCaribe\n\\(+2.0\\)\n68.5\n12.1\n15\n12.3\n4.2\n15\n1.717\n0.0099\n\n\nMuñoz & Silva (2022)\nPorites astreoides\nCaribe\n\\(+2.0\\)\n34.2\n8.5\n12\n10.1\n3.1\n12\n1.220\n0.0125\n\n\nChen et al. (2023)\nAcropora cervicornis\nIndo-Pacífico\n\\(+2.5\\)\n82.0\n10.4\n20\n8.5\n2.8\n20\n2.267\n0.0063\n\n\n\nDemostración Matemática de ejemplo para García et al. (2021)\n\\[\\ln RR = \\ln\\left(\\frac{68.5}{12.3}\\right) = \\ln(5.5691) \\approx 1.717\\]\n\\[v_{\\ln RR} = \\frac{12.1^2}{15 \\times 68.5^2} + \\frac{4.2^2}{15 \\times 12.3^2} = \\frac{146.41}{70383.75} + \\frac{17.64}{2269.35} \\approx 0.0099\\]"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-6-script-de-ejecución-en-r-para-el-modelo-multinivel",
+    "href": "revisiones_sistematicas.html#paso-6-script-de-ejecución-en-r-para-el-modelo-multinivel",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 6: Script de Ejecución en R para el Modelo Multinivel",
+    "text": "Paso 6: Script de Ejecución en R para el Modelo Multinivel\nlibrary(metafor)\nlibrary(orchaRd)\n\n# 1. Ajustar modelo metaanalítico multinivel con covarianza filogenética\nmodel_corales &lt;- rma.mv(\n  yi = lnRR, \n  V = v_lnRR, \n  mods = ~ Anomalia_Termica + Region,\n  random = list(~ 1 | ID_Estudio, ~ 1 | ID_Efecto, ~ 1 | Especie_Phylo),\n  R = list(Especie_Phylo = phylo_matrix),\n  data = datos_corales,\n  method = \"REML\"\n)\n\n# 2. Resumen estadístico\nsummary(model_corales)\n\n# 3. Visualización con Gráfico de Orquídea (orchaRd 2.0)\norchard_plot(model_corales, mod = \"Region\", group = \"ID_Estudio\",\n             xlab = \"Razón de Respuesta Logarítmica (lnRR)\",\n             legend.pos = \"top.left\")"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#resultados-estadísticos",
+    "href": "revisiones_sistematicas.html#resultados-estadísticos",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Resultados Estadísticos",
+    "text": "Resultados Estadísticos\nEl modelo indicó un tamaño del efecto global significativo de \\(\\ln RR = 1.64\\) (\\(95\\%\\text{ IC} = [1.28, 2.00]\\), \\(p &lt; 0.001\\)), equivalente a un incremento del \\(+415\\%\\) en el blanqueamiento.\nLa heterogeneidad desglosada (\\(I^2_{ml}\\)) asignó \\(42\\%\\) a diferencias entre estudios, \\(28\\%\\) a la estructura filogenética y \\(30\\%\\) al error residual."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#ejemplo-práctico-2-revisión-sistemática-tradicional-síntesis-cualitativa",
+    "href": "revisiones_sistematicas.html#ejemplo-práctico-2-revisión-sistemática-tradicional-síntesis-cualitativa",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Ejemplo Práctico 2: Revisión Sistemática Tradicional (Síntesis Cualitativa)",
+    "text": "Ejemplo Práctico 2: Revisión Sistemática Tradicional (Síntesis Cualitativa)\nTítulo de la Investigación\nEficacia de las técnicas de restauración ecológica pasiva frente a la activa en la recuperación de servicios ecosistémicos de polinización en agroecosistemas neotropicales degradados: Una revisión sistemática cualitativa bajo el estándar ROSES.\n\nTree cover being re-established through assisted natural regeneration in recovered cattle pasture in the Maya Biosphere Reserve. Photo credit: ©WCS Guatemala. Fuente"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-1-definición-de-la-pregunta-peco-y-protocolo-roses",
+    "href": "revisiones_sistematicas.html#paso-1-definición-de-la-pregunta-peco-y-protocolo-roses",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 1: Definición de la Pregunta (PECO) y Protocolo ROSES",
+    "text": "Paso 1: Definición de la Pregunta (PECO) y Protocolo ROSES\n\nPoblación (P): Agroecosistemas tropicales y paisajes agrícolas degradados en América Latina.\nExposición / Intervención (E): Restauración ecológica pasiva (regeneración asistida/exclusión de ganado) frente a activa (siembra de franjas nectaríferas y corredores florales).\nComparador (C): Monocultivos agrícolas intensivos adyacentes no restaurados o zonas degradadas basales.\nResultados / Outcomes (O): Recuperación funcional de la polinización (riqueza de polinizadores nativos, tasa de visitas a flores y cuajado de frutos).\nRegistro del Protocolo: Registrado en la Collaboration for Environmental Evidence (ID: CEE-26-089)."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-2-búsqueda-multilingüe-y-fuentes-registradas",
+    "href": "revisiones_sistematicas.html#paso-2-búsqueda-multilingüe-y-fuentes-registradas",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 2: Búsqueda Multilingüe y Fuentes Registradas",
+    "text": "Paso 2: Búsqueda Multilingüe y Fuentes Registradas\nBúsqueda realizada en español, inglés y portugués en Web of Science, SciELO, Redalyc, DOAJ y literatura gris de institutos regionales (Instituto Humboldt, EMBRAPA, CONABIO):\n(\"restauración ecológica\" OR \"ecological restoration\" OR \"regeneración natural\") \nAND (\"poliniza*\" OR \"pollination\" OR \"abejas\" OR \"bees\") \nAND (\"agroecosistema*\" OR \"agricultural landscape\") \nAND (\"Neotrópico\" OR \"América Latina\" OR \"Neotropics\")"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-3-selección-y-diagrama-roses",
+    "href": "revisiones_sistematicas.html#paso-3-selección-y-diagrama-roses",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 3: Selección y Diagrama ROSES",
+    "text": "Paso 3: Selección y Diagrama ROSES\n\nRegistros brutos recuperados: 820.\nRegistros tras desduplicar: 660.\nExcluidos en título/resumen: 510.\nTexto completo evaluado: 150 artículos (112 excluidos con causa documentada).\nEstudios seleccionados para la síntesis: 38 estudios primarios cualitativos u observacionales."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-4-justificación-metodológica-de-la-imposibilidad-de-metaanálisis",
+    "href": "revisiones_sistematicas.html#paso-4-justificación-metodológica-de-la-imposibilidad-de-metaanálisis",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 4: Justificación Metodológica de la Imposibilidad de Metaanálisis",
+    "text": "Paso 4: Justificación Metodológica de la Imposibilidad de Metaanálisis\nSe determinó no realizar síntesis cuantitativa debido a tres barreras metodológicas:\n\nHeterogeneidad Métrica Extrema: Variabilidad de variables no estandarizables (número de granos de polen por estigma vs. abundancia en trampas pan-trap vs. % aborto de frutos).\nAusencia de Medidas de Dispersión: El \\(60\\%\\) de los reportes técnicos de literatura gris omitió la desviación estándar (\\(SD\\)), error estándar (\\(SE\\)) o tamaños muestrales (\\(n\\)).\nMezcla de Diseños: Incompatibilidad entre experimentos manipulativos de campo e inventarios etnoecológicos cualitativos."
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-5-matriz-cualitativa-de-evidencia-y-síntesis-narrativa",
+    "href": "revisiones_sistematicas.html#paso-5-matriz-cualitativa-de-evidencia-y-síntesis-narrativa",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 5: Matriz Cualitativa de Evidencia y Síntesis Narrativa",
+    "text": "Paso 5: Matriz Cualitativa de Evidencia y Síntesis Narrativa\n\n\n\n\n\n\n\n\n\n\n\nCategoría de Restauración\nEcosistema / Cultivo\nEstudios (\\(n\\))\nDirección del Efecto\nConsenso Cualitativo y Mecanismos\nCalidad CEESAT\n\n\n\n\nRestauración Activa: Franjas florales\nCafetales y frutales\n16\n14 Positivo, 2 Neutro\nAumento en la riqueza de abejas nativas (Meliponini). La oferta de recursos florales previene cuellos de botella en sequía.\nAlta (Bajo riesgo de sesgo)\n\n\nRestauración Pasiva: Exclusión de ganado\nBosque seco / Pastizales\n12\n7 Positivo, 4 Neutro, 1 Negativo\nRecuperación lenta de la red de interacción. Eficaz únicamente con bosque nativo adyacente a \\(&lt; 500\\text{ m}\\).\nModerada\n\n\nPlantaciones Mixtas: Árboles nativos\nSistemas agroforestales\n10\n9 Positivo, 1 Neutro\nIncremento en polinizadores de la familia Ceratopogonidae. La sombra y hojarasca optimizan la nidificación.\nAlta"
+  },
+  {
+    "objectID": "revisiones_sistematicas.html#paso-6-mapeo-de-vacíos-de-evidencia-gap-mapping",
+    "href": "revisiones_sistematicas.html#paso-6-mapeo-de-vacíos-de-evidencia-gap-mapping",
+    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
+    "section": "Paso 6: Mapeo de Vacíos de Evidencia (Gap Mapping)",
+    "text": "Paso 6: Mapeo de Vacíos de Evidencia (Gap Mapping)\nEl reporte final bajo la normativa ROSES identificó dos vacíos del conocimiento críticos:\n\nVacío Geográfico: El \\(70\\%\\) de la evidencia se concentra en Brasil y Colombia; escasez total de datos primarios en América Central y el Caribe.\nVacío Taxonómico: Sesgo del \\(85\\%\\) de los estudios hacia abejas (Apis mellifera y Meliponini), ignorando el rol funcional de dípteros, coleópteros y quirópteros."
+  },
+  {
     "objectID": "revisiones_sistematicas.html#puntos-clave",
     "href": "revisiones_sistematicas.html#puntos-clave",
     "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
     "section": "Puntos Clave",
-    "text": "Puntos Clave\n\nLa investigación biológica requiere estándares adaptados (ROSES, PRISMA-EcoEvo) para abordar la complejidad ecológica y filogenética.\nLos modelos metaanalíticos multinivel y las herramientas modernas de visualización (orchaRd) son indispensables para manejar datos no independientes.\nLa Inteligencia Artificial acelera significativamente los flujos de revisión, pero su integración debe guiarse bajo normativas como PRISMA-trAIce.\nLa supervisión humana experta sigue siendo la salvaguarda ética y científica fundamental para la síntesis del conocimiento."
-  },
-  {
-    "objectID": "revisiones_sistematicas.html#preguntas-o-comentarios",
-    "href": "revisiones_sistematicas.html#preguntas-o-comentarios",
-    "title": "Revisiones Sistemáticas y Metaanálisis en Investigación Biológica",
-    "section": "¿Preguntas o Comentarios?",
-    "text": "¿Preguntas o Comentarios?\nGracias por su atención.\nConsulte el documento fuente para el desglose detallado de ecuaciones y referencias bibliográficas."
+    "text": "Puntos Clave\n\nLa investigación biológica requiere estándares adaptados (ROSES, PRISMA-EcoEvo) para abordar la complejidad ecológica y filogenética.\nLos modelos metaanalíticos multinivel y las herramientas modernas de visualización (orchaRd) son indispensables para manejar datos no independientes.\nLa elección entre un metaanálisis cuantitativo y una revisión sistemática cualitativa no depende de la preferencia del investigador, sino de la homogeneidad de las métricas y la calidad del reporte de dispersión en los estudios primarios.\nLa divulgación de datos procesados, scripts estadísticos en R y listas de verificación (PRISMA-EcoEvo / ROSES) constituye un requisito indispensable para garantizar la replicabilidad científica.\nLa Inteligencia Artificial acelera significativamente los flujos de revisión, pero su integración debe guiarse bajo normativas como PRISMA-trAIce.\nLa supervisión humana experta sigue siendo la salvaguarda ética y científica fundamental para la síntesis del conocimiento."
   }
 ]
