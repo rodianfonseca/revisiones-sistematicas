@@ -30,6 +30,9 @@ format:
 
 ## Contenido
 
+::: {.columns}
+
+::: {.column width="60%"}
 1.  **Fundamentos y Tipología de la Síntesis de Evidencia**
 
 2.  **Marcos Conceptuales y Estándares de Reporte**
@@ -44,7 +47,18 @@ format:
 
 7.  **Ejemplos Prácticos en Biología**
 
-8. **Conclusiones**
+8.  **Conclusiones**
+:::
+
+::: {.column width="40%"}
+
+![](revisiones_sistematicas.svg)
+
+:::
+
+::::
+
+
 
 # 1. Fundamentos y Tipología de la Síntesis de Evidencia {background-color="#1e293b"}
 
